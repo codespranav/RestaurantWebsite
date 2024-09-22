@@ -1,3 +1,18 @@
+// menu 
+const mobileMenu = document.querySelector('.menu-links'); // Select the mobile menu container
+const hamburger = document.getElementById('hamburger_icon'); // Select the hamburger icon
+
+// Add event listener to the hamburger icon
+hamburger.addEventListener("click", () => {
+    mobileMenu.classList.toggle('visible'); // Toggle the 'visible' class to show or hide the menu
+});
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 99) {
+        console.log("Reached");
+    }
+});
+
 // // document.getElementById('play-icon').addEventListener('click', function() {
 // //     document.getElementById('media-popup').classList.remove('hidden');
 // // });
@@ -58,3 +73,7 @@
 //         cardsContainer.appendChild(card);
 //     });
 // });
+
+
+
+

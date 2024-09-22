@@ -6,6 +6,28 @@
     scroll-behavior: smooth;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #8E6D45;
+    border-radius: 20px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #e4a853;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #e4a853;
+  }
+
 li{
     list-style: none;
 }
